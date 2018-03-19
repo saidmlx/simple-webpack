@@ -1,0 +1,17 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(54, 151, 25);
+    height: 100vh;
+    margin: 0;
+    font-size: 40px;
+    background-image: url('../img/platzi.png');
+    font-family: 'Inkland'
+}
+
+@font-face{
+    font-family: 'Inkland', sans-serif;
+    src: url('../fonts/Inkland.ttf')format('truetype')
+}

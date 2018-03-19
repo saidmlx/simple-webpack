@@ -1,0 +1,77 @@
+{
+  "name": "simple-webpack",
+  "version": "1.0.0",
+  "description": "simple webpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:css": "webpack --config ./css-style-loader/webpack.config.js",
+    "build:css-plugin": "webpack --config ./css-style-loader-plugin/webpack.config.js",
+    "build:multiple-entries": "webpack --config ./multiple-entry-point/webpack.config.js",
+    "build:dev-server": "webpack-dev-server --config ./dev-server/webpack.config.js",
+    "build:babel": "webpack --config ./babel/webpack.config.js",
+    "build:url-loader": "webpack --config ./url-loader/webpack.config.js",
+    "build:url-fonts": "webpack --config ./fonts/webpack.config.js",
+    "build:video": "webpack --config ./video/webpack.config.js",
+    "build:json-loader": "webpack --config ./json-loader/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js",
+    "build:sass": "webpack --config ./sass/webpack.config.js",
+    "build:stylus": "webpack --config ./stylus/webpack.config.js",
+    "build:less": "webpack --config ./less/webpack.config.js",
+    "build:postcss": "webpack --config ./postcss/webpack.config.js",
+    "build:prevent": "webpack --config ./prevent-repeat-code/webpack.config.js",
+    "build:vendor": "webpack --config ./vendor/webpack.config.js",
+    "build:dll": "webpack --config ./dll/webpack.dll.config.js",
+    "build:dll-src": "webpack --config ./dll/webpack.config.js",
+    "build:dynamic": "webpack --config ./dynamic-import/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidmlx/simple-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "saidmlx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saidmlx/simple-webpack/issues"
+  },
+  "homepage": "https://github.com/saidmlx/simple-webpack#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-es2016": "6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.10",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "^1.1.11",
+    "json-loader": "^0.5.7",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "nib": "^1.1.2",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.20",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.1.2",
+    "rupture": "^0.7.1",
+    "sass-loader": "^6.0.7",
+    "sass-npm": "^1.0.2",
+    "style-loader": "0.20.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "1.0.1",
+    "webpack": "3.8.1",
+    "webpack-cli": "2.0.10",
+    "webpack-dev-server": "2.9.3"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

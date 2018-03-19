@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"product1",
+            "description":"Is a product tha contain"
+        },
+        {
+            "id":2,
+            "name":"product 2",
+            "description":"Is a product tha contain"
+        },
+        {
+            "id":3,
+            "name":"product 3",
+            "description":"Is a product tha contain"
+        }
+    ]
+}

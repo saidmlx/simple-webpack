@@ -1,0 +1,14 @@
+
+
+body {
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 40px;
+  flex-direction: column;
+  /*background-image: url('./platzi.png');*/
+  font-family: 'open_sansregular';
+}
